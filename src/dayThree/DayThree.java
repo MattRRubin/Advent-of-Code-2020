@@ -22,11 +22,11 @@ public class DayThree {
 		}
 		System.out.println(countTrees(data, 3, 1)); // part 1
 		System.out.println(
-				countTrees(data, 1, 1) *
-				countTrees(data, 3, 1) *
-				countTrees(data, 5, 1) *
-				countTrees(data, 7, 1) *
-				countTrees(data, 1, 2)
+				(long) countTrees(data, 1, 1) *
+				(long) countTrees(data, 3, 1) *
+				(long) countTrees(data, 5, 1) *
+				(long) countTrees(data, 7, 1) *
+				(long) countTrees(data, 1, 2)
 		); // part 2
 	}
 	
