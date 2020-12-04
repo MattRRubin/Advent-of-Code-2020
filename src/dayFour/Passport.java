@@ -82,7 +82,7 @@ public class Passport {
 			} else if (hgt.matches("\\d+in")) {
 				try {
 					int n = Integer.parseInt(hgt.substring(0, hgt.indexOf("in")));
-					return (150 <= n && n <= 193);
+					return (59 <= n && n <= 76);
 				} catch (Exception ex) {
 					return false;
 				}
